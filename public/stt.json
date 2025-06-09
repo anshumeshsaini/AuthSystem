@@ -1,0 +1,53 @@
+{
+  "providers": [
+    {
+      "id": "deepgram",
+      "name": "Deepgram",
+      "models": [
+        {
+          "id": "nova-2",
+          "name": "Nova-2",
+          "languages": [
+            { "id": "en", "name": "English", "code": "en-US" },
+            { "id": "es", "name": "Spanish", "code": "es-ES" },
+            { "id": "fr", "name": "French", "code": "fr-FR" },
+            { "id": "de", "name": "German", "code": "de-DE" }
+          ]
+        },
+        {
+          "id": "whisper",
+          "name": "Whisper",
+          "languages": [
+            { "id": "en", "name": "English", "code": "en-US" },
+            { "id": "es", "name": "Spanish", "code": "es-ES" },
+            { "id": "fr", "name": "French", "code": "fr-FR" },
+            { "id": "de", "name": "German", "code": "de-DE" },
+            { "id": "ja", "name": "Japanese", "code": "ja-JP" },
+            { "id": "ko", "name": "Korean", "code": "ko-KR" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "assemblyai",
+      "name": "AssemblyAI",
+      "models": [
+        {
+          "id": "best",
+          "name": "Best",
+          "languages": [
+            { "id": "en", "name": "English", "code": "en-US" },
+            { "id": "es", "name": "Spanish", "code": "es-ES" }
+          ]
+        },
+        {
+          "id": "nano",
+          "name": "Nano",
+          "languages": [
+            { "id": "en", "name": "English", "code": "en-US" }
+          ]
+        }
+      ]
+    }
+  ]
+}
